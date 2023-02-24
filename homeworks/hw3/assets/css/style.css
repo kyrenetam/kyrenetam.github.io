@@ -1,7 +1,10 @@
 /* PROBLEM 1: Remove white margin of body, html */
-#body {
+body {
 margin: 0px 0px 0px 0px;
 }
+html {
+    margin: 0px 0px 0px 0px;
+    }
 
 /* PROBLEM 2: Select profile picture and make it round */
 #profile-pic{
