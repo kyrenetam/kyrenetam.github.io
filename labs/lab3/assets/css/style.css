@@ -8,12 +8,12 @@ body {
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .img-scaled {
-    width: 100%;   
+    width: 100%;
 }
 
 .img-scaled-wh {
@@ -22,7 +22,7 @@ a {
 }
 
 .clear {
-    clear: both;   
+    clear: both;
 }
 
 * {
@@ -30,7 +30,7 @@ a {
 }
 
 #data {
-	display: none;
+    display: none;
 }
 
 #container {
@@ -42,16 +42,19 @@ a {
     position: relative;
     padding: 30px 0px;
 }
+
 #header {
     background: #78c272;
     padding: 15px;
     color: white;
     width: 270px;
 }
+
 #header-caption-logo {
     width: 20px;
     float: left;
 }
+
 #header-caption-name {
     float: left;
     margin-left: 5px;
@@ -59,15 +62,18 @@ a {
     font-weight: 700;
     line-height: 15px;
 }
+
 #header-caption {
     margin-bottom: 6px;
     opacity: 0.6;
 }
+
 #header-title {
     font-size: 18px;
     font-weight: 300;
     float: left;
 }
+
 #header-due {
     float: left;
     font-size: 18px;
@@ -76,69 +82,88 @@ a {
     padding-left: 10px;
     border-left: 2px solid rgba(255, 255, 255, 0.15);
 }
+
 .section {
     margin: 30px 0px;
     padding: 0px 30px;
 }
-#submission-header, .info-title {
+
+#submission-header,
+.info-title {
     text-align: left;
     color: #78c272;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 15px;
 }
-#submission-content, .info-content {
+
+#submission-content,
+.info-content {
     padding: 15px;
     background: rgba(120, 194, 114, 0.1);
     border-radius: 2px;
     color: #4c5765;
 }
+
 .info-required {
     font-size: 13px;
     font-weight: 700;
     opacity: 0.75;
     margin-bottom: 10px;
 }
+
 .info-intro {
     line-height: 24px;
     font-size: 16px;
     opacity: 0.75;
 }
+
 .info {
     margin-bottom: 30px;
 }
+
 .body-header {
     font-size: 24px;
     font-weight: 700;
     color: #78c272;
 }
+
 .body p {
     line-height: 24px;
 }
+
 .body img {
-	width: 100%;
+    width: 100%;
 }
+
 .body a {
-	color: #78c272;
+    color: #78c272;
 }
+
 .body li {
     line-height: 24px;
     padding-left: 15px;
     padding-bottom: 5px;
 }
+
 .body {
     color: #4c5765;
 }
+
 .body .caption {
     opacity: 0.6;
 }
+
 #submission {
     padding: 0px 30px;
 }
-#submission-content p, #submission-content li {
+
+#submission-content p,
+#submission-content li {
     line-height: 24px;
     opacity: 0.75;
 }
+
 .download {
     background: #78c272;
     color: white;
@@ -153,7 +178,7 @@ a {
 }
 
 code {
-    background: rgba(27,31,35,.05);
+    background: rgba(27, 31, 35, .05);
     border-radius: 3px;
     padding: .2em .4em;
 }
