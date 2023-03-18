@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: "Dela Gothic One";
+background-color: #FBF6EB;}
+
+
+.nav-container{
+    display: flex;
+    /*SHADOW DOSEN'T SHOW UP!!*/
+    background: #ED7272;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 5px;
+}
+
+.nav-btn-contanier{
+    border: 2px solid #FBF6EB;
+    border-radius: 35px ;
+    padding: 5px 13px 8px 13px ;
+}
+.home-order-btn-container{
+    border: 2px solid #ED7272;
+    background-color: #ED7272;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 35px ;
+    padding: 5px 17px 8px 17px ;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #FBF6EB;
+}
+a:visited{
+    text-decoration: none;
+    color: #FBF6EB;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FBF6EB;
+}
+
+.nav-item{
+    list-style: none;
+    padding: 5px 35px;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../img/HOMEPAGE\ ROUNDED.png");
+    background-size: 100vw 100%;
+    width:auto;
+    z-index: -1;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../img/HOMEPAGE\ ROUNDED.png");
+    background-size: 100vw 100%;
+    width:auto;
+    z-index: -1;
+}
+
+.homepage-hotdog{
+    padding-top: 35px;
+}
+
+.how-we-do-it{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dela Gothic One';
+    font-size: 40px;
+    color: #8A4040;
+    padding: 45px 0px 20px 0px;
+}
+.how-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ED7272;
+    margin: 0px 50px 50px 50px ;
+}
+
+.top-of-the-press{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0px 10px 0px;
+}
+
+h1{
+font-family: 'Dela Gothic One';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 100.1%;
+align-items: center;
+color: #8A4040;
+padding-top: -20px;
+padding-bottom: 20px;
+text-align: center;
+}
+
+h2{
+font-family: 'Darker Grotesque';
+font-style:normal;
+font-weight: 700;
+font-size: 21px;
+padding-top: 5px;
+padding-bottom: 5px;
+line-height: 100.1%;
+display: flex;
+text-align: center;
+align-items: center;
+color: #8A4040;
+}
+
+h3{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100.1%;
+    text-align: center;
+    align-items: center;
+    color: #ED7272;;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    }  
+
+h4{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 80%;
+    color: #8A4040;
+    padding-bottom: 25px;
+    }    
+
+p{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 100.1%;    
+    text-align: center;
+    color: #8A4040; 
+}
+
+h5{
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 80%;
+    color: #ED7272;
+}
+h6{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #8A4040;
+}
+
+.quote-name{
+font-family: 'Darker Grotesque';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: #ED7272;
+align-items: center;
+text-align: center;
+padding-top: 30px;
+}
+
+.btm-nav-container{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    background: #ED7272;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.btm-nav-item{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items:end;
+        font-size: 23px;
+        color: #ED7272; 
+        font-family: 'Darker Grotesque', sans-serif;
+        padding-left: 30px;
+        margin: 30px;
+    }
+
+.btm-nav {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+    width: 100%;
+    }
+
+.btm-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    float: right;
+    width: 100%;
+
+}
+.quote-name{
+    padding-bottom: 60px;
+}
+
+.top-of-the-press{
+    background-color: #F8E6CB;
+}
+
+.menu{
+    padding-top: 55px;
+    background-color: #FBF6EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.items1{
+    padding:50px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.items2{
+    padding:20px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.items3{
+    padding:20px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.hot-dogs{
+    display: flex;
+    flex-direction: column;
+    padding:0px 10px 10px 40px;
+    align-items: center;
+}
+
+
