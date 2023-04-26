@@ -15,8 +15,8 @@
         <ul class="nav">
             <li class="nav-item">
                 <a href="final.html"></a>
-                <img src="assets/img/logo.png"></a>
-            </li>
+               <!--<img src="assets/img/logo.png"id="logo"width="30"height="50"></a>
+               </li>-->
             <li class="nav-item">
                 <a href="home.html">Home</a>
             </li>
@@ -28,29 +28,43 @@
             </li>
         </ul>    
     </div>
+    <div class="lanterns">
+        <img src="assets/img/lantern1.png" class="lantern" id="lantern1-base">
+        <img src="assets/img/lantern2.png" class="lantern" id="lantern2-base">
+        <img src="assets/img/lantern3.png" class="lantern" id="lantern3-base">
+    </div>
     <div class="home-page">
         <div class="slide-text">
             <div class="slideUp"> 
                 <h1>
                     kyrene tam
                 </h1>
+
+                <!--<script>
+                    const parallaxText = document.querySelector('.slide-text');
+
+                    window.addEventListener('scroll', () => {
+                    let scrollPosition = window.pageYOffset;
+                    parallaxText.style.transform = `translate(0, ${scrollPosition / 2}px)`;
+                    if (scrollPosition > parallaxText.offsetTop - window.innerHeight + 100) {
+                    parallaxText.classList.add('show');
+                    } else {
+                    parallaxText.classList.remove('show');
+                     }
+                    });
+                </script> -->
             </div>
+           <div class="fade-in-text">
+            <div class="fadeIn">
+                <h2>
+                    architecture & design
+                </h2>
+            </div>
+           </div>
         </div>
-        <h2>
-            architecture & design
-        </h2>
-        <div class name="lanterns">
-            <img src="assets/img/lantern1-base.png" id="lantern1-base">
-            <img src="assets/img/lantern2-base.png" id="lantern2-base">
-            <img src="assets/img/lantern3-base.png" id="lantern3-base">
-        </div>
-    <div> 
         <div class name="background">
             <img src="assets/img/panels.png" id="panels">
             <img src="assets/img/bamboo.png" id="bamboo">
-            <img src="assets/img/lantern1-top.png" id="lantern1-top">
-            <img src="assets/img/lantern2-top.png" id="lantern2-top">
-            <img src="assets/img/lantern3-top.png" id="lantern3-top">
             <img src="assets/img/mountain1.png" id="mountain1">
             <img src="assets/img/mountain2.png" id="mountain2">
             <img src="assets/img/building.png" id="building">
@@ -59,31 +73,68 @@
         </div>   
     </div>
 
+    
     <div class="my-container">
         <div class="my-specialties">
             <h2>
                 my specialties
             </h2>    
         </div>
-        <div class="my-section">
-            <div class="arch">
-                <img src="assets/img/arch.png">
-                <h3>
-                    architecture
-                </h3>
-            </div>
-            <div class="graphic-design">
-                <img src="assets/img/graphic-design.png">
-                <h3>
-                    graphic design
-                </h3>
-            </div>
-            <div class="illustration">
-                <img src="assets/img/illustration.png">
-                <h3>
-                    illustration
-                </h3>
-            </div>
+            <ul class="section">
+                <li class="section-item">
+                    <img src="assets/img/arch.png"id="arch"class="arch"alt="">
+                    <h3>architecture</h3>
+                    <p>I create engaging spaces that<br>interwines urban life and nature</p>
+                    <a class="nav-btn-arch" href="arch.html"> EXPLORE</a>
+                </li>
+                <li class="section-item">
+                    <img src="assets/img/graphic.png"id="graphic"alt="">
+                    <h3>graphic</h3>
+                    <p>I create fun visuals that<br>represent brands in a unique way</p>
+                    <a class="nav-btn-graphic" href="graphic-design.html"> EXPLORE</a>
+                </li>
+                <li class="section-item">
+                    <img src="assets/img/illustration.png"id="illustration"alt="">
+                    <h3>illustration</h3>
+                    <p>I illustrate pieces that<br> 
+                        reflect my vision and personality</p>
+                    <a class="nav-btn-illustration" href="illustration.html"> EXPLORE</a>
+                </li>
+            </ul>    
         </div>
+        </div>
+    </div>
+    <div class="transition">
+    </div>
+    <div class="my-projects">
+        <h2>
+            my projects
+        </h2> 
+        <div class name="project1">
+            <h4>
+                COMING <br>SOON!!
+            </h4>
+        </div>
+    </div>
+    <div class="btm-nav-bar">
+        <ul class="btm-nav">
+            <div>
+                <li class="btm-nav-item">
+                    <img src="assets/img/logo.png"alt=""width="30"height="50"></a>
+                </li>
+            </div>
+            <div>
+            <div class="btm-items">
+                <li class="btm-nav-item">
+                    <a href="https://www.linkedin.com/in/kyrenetam/">LINKEDIN</a>
+                </li>
+                <li class="btm-nav-item">
+                    <a href="mailto:kyrenetam@gmail.com"></a>EMAIL</a>
+                </li>
+            </div>
+            </div>
+        </ul>
+    </div>   
+
     </div>
 </body>

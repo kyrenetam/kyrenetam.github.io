@@ -1,0 +1,204 @@
+@import url('https://use.typekit.net/klq6lzb.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+    list-style: none;
+    color: #457DA3;
+}
+a:visited{
+    text-decoration: none;
+    list-style: none;
+    color: #457DA3;
+}
+
+body {
+    font-family: "Parity Sans", sans-serif;
+    color: #457DA3;
+    list-style: none;
+    background-color: #eef6fc;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    background: #F0F5F7;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom:170px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Parity Sans', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.home-page{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 500px;
+    padding-bottom: 600px;
+}
+/*the transition is kinda wonky ;-;*/
+  @keyframes slideUp {
+    0% {transform: translateY(40px);}
+    100% {transform: translateY(0px);opacity:1;}
+  }
+
+  .slideUp {
+    top:40px;
+    left:10px;
+    animation: slideUp ease 1s forwards 1.3s;
+  }
+
+.home-page img{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+
+.lanterns{
+    content: '';
+    display: table;
+    clear: both;
+    z-index: 1;
+}
+
+@keyframes swaying {
+    0% {transform: rotate(-2.5deg);}
+    50% {transform: rotate(2.5deg);}
+    100% {transform: rotate(-2.5deg);}
+}
+
+/*how can i make the lantern go on top of the navbar? */
+#lantern1-top{
+    z-index: 5;
+}
+
+#lantern2-top{
+    z-index: 5;
+}
+
+#lantern3-top{
+    z-index: 5;
+}
+
+/*how can i make the string of the lantern stay at pinpointed position? */
+#lantern1-base{
+    transform-origin: top left 5px;
+    animation: infinite;
+    animation-name: swaying;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    float: left;
+    z-index: 4;
+}
+
+#lantern2-base{
+    transform-origin: top right 5px;
+    animation: infinite;
+    animation-name: swaying;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    float: left;
+    z-index: 4;
+}
+
+#lantern3-base{
+    transform-origin: top right 5px;
+    animation: infinite;
+    animation-name: swaying;
+    animation-duration: 5.5s;
+    animation-timing-function: ease-in-out;
+    float: left;
+    z-index: 5;
+}
+
+#panels{
+    z-index: 2;
+}
+
+#bamboo{
+    z-index: 1; 
+}
+
+#mountain3{
+    z-index: -1; 
+}
+
+#building{
+    z-index: -2; 
+}
+
+#mountain1{
+    z-index: -3; 
+}
+
+#mountain2{
+    z-index: -4; 
+}
+
+.my-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-size: 100vw 100%;
+    width:auto;
+    z-index: -1;
+}
+
+.my-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 50px 50px 50px ;
+}
+/*make bamboo sway slightly later!! */
+
+
+h1{
+    font-family: "parity-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+}
+
+h2{
+    font-family: "parity-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+}
